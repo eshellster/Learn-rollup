@@ -1,0 +1,16 @@
+{
+  "name": "learning_01-combine_files",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.35.1"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "node dist/main.js"
+  },
+  "dependencies": {
+    "faker": "^5.1.0"
+  }
+}
